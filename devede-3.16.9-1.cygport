@@ -1,0 +1,13 @@
+inherit python
+
+DESCRIPTION="Creates DVD-Video images from other video formats"
+HOMEPAGE="http://www.rastersoft.com/programas/devede.html"
+SRC_URI="http://www.rastersoft.com/descargas/${P}.tar.bz2"
+
+src_compile() { :; }
+
+src_install() {
+	cd ${S}
+	DESTDIR=${D} prefix=/usr ./install.sh || error
+	python_optimize /usr/lib/${PN}
+}
