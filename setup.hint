@@ -1,5 +1,5 @@
 category: Video
-requires: python python-cairo python-gobject python-gtk2.0 dvdauthor libiconv mkisofs mplayer vcdimager
+requires: python python-cairo python-gobject python-gtk2.0 dvdauthor ffmpeg libiconv mkisofs mplayer vcdimager
 sdesc: "Creates DVD-Video images from any video format"
 ldesc: "DeVeDe is a program to create video DVDs and CDs (VCD, sVCD or 
 CVD), suitables for home players, from any number of video files, in any 

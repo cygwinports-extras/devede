@@ -3,7 +3,6 @@ inherit python
 DESCRIPTION="Creates DVD-Video images from other video formats"
 HOMEPAGE="http://www.rastersoft.com/programas/devede.html"
 SRC_URI="http://www.rastersoft.com/descargas/${P}.tar.bz2"
-SRC_DIR=${PN}
 
 src_compile() { :; }
 
