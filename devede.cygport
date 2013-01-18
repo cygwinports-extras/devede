@@ -2,7 +2,7 @@ inherit python
 
 NAME="devede"
 VERSION=3.23.0
-RELEASE=1
+RELEASE=2
 CATEGORY="Video"
 SUMMARY="Creates DVD-Videos from other video formats"
 DESCRIPTION="DeVeDe is a program to create video DVDs and CDs (VCD, sVCD or
